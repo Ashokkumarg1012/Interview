@@ -43,6 +43,10 @@ public class TA_Practice extends Base {
 		int monthValue = Integer.parseInt(month);
 		int currentMonthValue=getMonthValue(currentMonth);
 		int count =monthValue - currentMonthValue;
+		if(count<0)
+		{
+			count=count*-1;
+		}
 //		System.out.println("Count: "+count);
 		System.out.println("current month: "+currentMonthValue);
 		System.out.println("month value: "+monthValue);
@@ -52,13 +56,27 @@ public class TA_Practice extends Base {
 		String currentYear = driver.findElement(By.xpath("//span[@class='ui-datepicker-year']")).getText();
 		int currentYearValue = Integer.parseInt(currentYear);
 		int yearCount = yearValue - currentYearValue;
+		if(yearCount<0)
+		{
+			yearCount=yearCount*-1;
+		}
 		
 		count = count+ 12*yearCount;
 		System.out.println("Count: "+count);
 		for(int m=0;m<count;m++)
 		{
-			driver.findElement(By.xpath("//a[@title='Next']")).click();
-			Thread.sleep(500);
+			if(monthValue>=currentMonthValue)
+			{
+				driver.findElement(By.xpath("//a[@title='Next']")).click();
+				Thread.sleep(500);
+			}
+			else
+			{
+				driver.findElement(By.xpath("//a[@title='Prev']")).click();
+			}
+			
+			
+
 		}
 		
 		

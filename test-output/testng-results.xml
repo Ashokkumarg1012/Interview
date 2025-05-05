@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-06T00:06:01 IST" name="Default suite" finished-at="2025-05-06T00:06:28 IST" duration-ms="26620">
+  <suite started-at="2025-05-06T00:31:11 IST" name="Default suite" finished-at="2025-05-06T00:31:26 IST" duration-ms="15164">
     <groups>
     </groups>
-    <test started-at="2025-05-06T00:06:01 IST" name="Default test" finished-at="2025-05-06T00:06:28 IST" duration-ms="26620">
+    <test started-at="2025-05-06T00:31:11 IST" name="Default test" finished-at="2025-05-06T00:31:26 IST" duration-ms="15164">
       <class name="com.google.WebAutomation_Interview.testScripts.TA_Practice">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.google.WebAutomation_Interview.testScripts.TA_Practice@65c7a252]" started-at="2025-05-06T00:06:01 IST" name="setup" finished-at="2025-05-06T00:06:03 IST" duration-ms="1566" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.google.WebAutomation_Interview.testScripts.TA_Practice@65c7a252]" started-at="2025-05-06T00:31:11 IST" name="setup" finished-at="2025-05-06T00:31:14 IST" duration-ms="3102" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="launch()[pri:1, instance:com.google.WebAutomation_Interview.testScripts.TA_Practice@65c7a252]" started-at="2025-05-06T00:06:03 IST" name="launch" finished-at="2025-05-06T00:06:06 IST" duration-ms="3533" status="PASS">
+        <test-method signature="launch()[pri:1, instance:com.google.WebAutomation_Interview.testScripts.TA_Practice@65c7a252]" started-at="2025-05-06T00:31:14 IST" name="launch" finished-at="2025-05-06T00:31:18 IST" duration-ms="4227" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method signature="dateSelection1_day()[pri:3, instance:com.google.WebAutomation_Interview.testScripts.TA_Practice@65c7a252]" started-at="2025-05-06T00:06:06 IST" name="dateSelection1_day" finished-at="2025-05-06T00:06:28 IST" duration-ms="21483" status="PASS">
+        <test-method signature="dateSelection1_day()[pri:3, instance:com.google.WebAutomation_Interview.testScripts.TA_Practice@65c7a252]" started-at="2025-05-06T00:31:18 IST" name="dateSelection1_day" finished-at="2025-05-06T00:31:26 IST" duration-ms="7766" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dateSelection1_day -->
