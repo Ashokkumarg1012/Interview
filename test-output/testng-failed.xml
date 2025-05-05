@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.google.WebAutomation_Interview.testScripts.FlipCart">
+      <class name="com.google.WebAutomation_Interview.testScripts.TA_Practice">
         <methods>
-          <include name="selectItem"/>
           <include name="setup"/>
+          <include name="launch"/>
         </methods>
-      </class> <!-- com.google.WebAutomation_Interview.testScripts.FlipCart -->
+      </class> <!-- com.google.WebAutomation_Interview.testScripts.TA_Practice -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
