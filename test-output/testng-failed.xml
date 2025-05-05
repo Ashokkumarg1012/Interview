@@ -5,8 +5,9 @@
     <classes>
       <class name="com.google.WebAutomation_Interview.testScripts.TA_Practice">
         <methods>
+          <include name="dateSelection1_day"/>
           <include name="setup"/>
-          <include name="launch"/>
+          <include name="teardown"/>
         </methods>
       </class> <!-- com.google.WebAutomation_Interview.testScripts.TA_Practice -->
     </classes>
